@@ -1,0 +1,13 @@
+box: golang
+build:
+
+    steps:
+        - setup-go-workspace
+
+        - script:
+            name: dependencies
+            code: make deps
+
+        - script:
+            name: lint
+            code: make lint
