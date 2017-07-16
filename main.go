@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/tikasan/golint/check"
-	"github.com/tikasan/golint/ignore"
+	"github.com/pei0804/golint/check"
+	"github.com/pei0804/golint/ignore"
 )
 
 func main() {
